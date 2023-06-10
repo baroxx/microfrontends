@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'main-app';
+  homeRoute = 'http://localhost:4200/home'
 }

@@ -2,13 +2,19 @@ import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { OneComponent } from './elements/one.component';
+import { TwoComponent } from './elements/two.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OneComponent,
+    TwoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent],
