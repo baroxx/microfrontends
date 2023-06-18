@@ -1,0 +1,10 @@
+<div class="ui-g">
+  <div class="row">
+      <div class="ui-g-3">
+          <app-header [homeRoute]="homeRoute"></app-header>
+      </div>
+      <div *ngFor="let item of items;" class="ui-g-9 content">
+        <app-card-component itemName="{{item.name}}" detailsUrl="{{detailsUrl}}" class="card"></app-card-component>
+      </div>
+  </div>
+</div>
